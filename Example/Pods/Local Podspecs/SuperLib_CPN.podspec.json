@@ -1,0 +1,22 @@
+{
+  "name": "SuperLib_CPN",
+  "version": "0.1.0",
+  "summary": "测试哈哈",
+  "description": "小测试",
+  "homepage": "https://github.com/walkerwg/SuperLib_CPN",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "walkerwg": "907029564@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/walkerwg/SuperLib_CPN.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SuperLib_CPN/Classes/**/*.{h,m}"
+}

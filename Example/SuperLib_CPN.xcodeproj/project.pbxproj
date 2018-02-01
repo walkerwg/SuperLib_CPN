@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23E00F520A5DC44A2C9E143B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		23E00F520A5DC44A2C9E143B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2F6421920E3D10265E423B49 /* Pods_SuperLib_CPN_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperLib_CPN_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37755DB1522F3BCF3836836C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		41B807D2973CA600D230D451 /* SuperLib_CPN.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SuperLib_CPN.podspec; path = ../SuperLib_CPN.podspec; sourceTree = "<group>"; };
+		37755DB1522F3BCF3836836C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		41B807D2973CA600D230D451 /* SuperLib_CPN.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SuperLib_CPN.podspec; path = ../SuperLib_CPN.podspec; sourceTree = "<group>"; };
 		5D637A7DA6842F1C93EA642C /* Pods-SuperLib_CPN_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperLib_CPN_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperLib_CPN_Example/Pods-SuperLib_CPN_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SuperLib_CPN_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperLib_CPN_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = walkerwg;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4XXN38ECKL;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = 5D637A7DA6842F1C93EA642C /* Pods-SuperLib_CPN_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XXN38ECKL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperLib_CPN/SuperLib_CPN-Prefix.pch";
 				INFOPLIST_FILE = "SuperLib_CPN/SuperLib_CPN-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = 86ED185C366E18E7D65E0A0C /* Pods-SuperLib_CPN_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4XXN38ECKL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperLib_CPN/SuperLib_CPN-Prefix.pch";
 				INFOPLIST_FILE = "SuperLib_CPN/SuperLib_CPN-Info.plist";

@@ -1,0 +1,6 @@
+framework module SuperLib_CPN {
+  umbrella header "SuperLib_CPN-umbrella.h"
+
+  export *
+  module * { export * }
+}
