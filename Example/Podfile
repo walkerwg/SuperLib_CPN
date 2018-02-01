@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SuperLib_CPN_Example' do
+  pod 'SuperLib_CPN', :path => '../'
+
+  target 'SuperLib_CPN_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
