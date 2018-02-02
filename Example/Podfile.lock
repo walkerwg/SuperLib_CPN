@@ -1,23 +1,12 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - SuperLib_CPN (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
-  - SuperLib_CPN (from `../`)
-
-EXTERNAL SOURCES:
-  SuperLib_CPN:
-    :path: ../
+  - SuperLib_CPN
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SuperLib_CPN: c5704a9dbf07aa28df6d54ca9a8f77465be489bc
+  SuperLib_CPN: 6345d7519f5508e4e0e7a50535e9a00e67974b9c
 
-PODFILE CHECKSUM: e7b1412f16b630b831b0ad56f5a00b63fa74c442
+PODFILE CHECKSUM: 1710f5337da9b7f302da0e56e00835d69b80b8a6
 
 COCOAPODS: 1.1.1

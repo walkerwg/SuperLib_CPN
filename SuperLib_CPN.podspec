@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-小测试
+小测试居然不能summary短。。。。。
                        DESC
 
   s.homepage         = 'https://github.com/walkerwg/SuperLib_CPN'

@@ -7,12 +7,13 @@
 //
 
 #import "WGAppDelegate.h"
-
+#import <SuperLib_CPN/Test.h>
 @implementation WGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Test print];
     return YES;
 }
 

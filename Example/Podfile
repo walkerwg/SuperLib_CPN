@@ -1,11 +1,10 @@
 use_frameworks!
+source "https://github.com/walkerwg/Spec.git"
 
 target 'SuperLib_CPN_Example' do
-  pod 'SuperLib_CPN', :path => '../'
+  pod 'SuperLib_CPN'
 
   target 'SuperLib_CPN_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
   end
 end
