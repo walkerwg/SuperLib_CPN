@@ -11,4 +11,5 @@
 @interface Test : NSObject
 
 + (void)print;
++ (void)test;
 @end

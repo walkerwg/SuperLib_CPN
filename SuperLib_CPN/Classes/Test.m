@@ -13,4 +13,9 @@
     
     NSLog(@"哈哈哈");
 }
+
++ (void)test {
+    
+    NSLog(@"嘿嘿嘿");
+}
 @end
